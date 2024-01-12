@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Meta tags and stylesheets -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="dynamic.css">
+        <title>Information System Website</title>
+    </head>
+    
+    <body>
+        <header>
+            <div class="d-flex align-items-center">
+                <div class="logo-container">
+                    <a href="https://www.antiquespride.edu.ph" target="_blank">
+                        <img src="img/ua-logo.jpg" alt="Your Logo" class="logo">
+                    </a>
+                </div>
+                <div class="header-content">
+                    <h1>INFORMATION SYSTEM</h1>
+                </div>
+            </div>
+        </header>
+        
+    
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">Home</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="#courses">Courses</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#faq">FAQ</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#resources">Resources</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact" onclick="scrollToSection('contact')">Contact</a></li>
+                  
+                </ul>
+                    
+                </div>
+        </nav>
+    
+        <section id="home" class="container mt-3">
+            <div class="header-content">
+                <h2>What is an Information System?</h2>
+                <img src="img/info-bg.png" alt="Background Image" class="background-image">
+            <p>
+                An Information System (IS) is a set of interconnected components that collect, process, store, and distribute information to support decision-making, coordination, control, analysis, and visualization in an organization. It involves the interaction of people, processes, data, and technology.
+        
+                Information Systems play a crucial role in organizations, facilitating efficient communication, data management, and business processes. They encompass various types, including transaction processing systems, management information systems, decision support systems, and executive information systems.
+            </p>
+            <p>
+                The uses of Information Systems are diverse. They aid in data storage and retrieval, automate routine tasks, enhance collaboration, provide insights through analytics, and contribute to strategic planning. In essence, Information Systems are integral to modern businesses, enabling them to adapt and thrive in a dynamic digital landscape.
+            </p>
+            <p>Information Systems (IS) are indispensable tools that form the backbone of modern organizations, orchestrating a symphony of interconnected components. They collect, process, and store information, empowering decision-making, coordination, and analysis. IS not only streamline operations through task automation but also enhance communication, fostering collaboration and connectivity on a global scale. Real-time data and analytics support informed decision-making, while robust security measures ensure data integrity and compliance. These systems play a pivotal role in customer relationship management, innovation, and resource optimization, contributing to organizational success. Furthermore, IS facilitate online presence, e-commerce, and continuous improvement through feedback and analytics. In essence, Information Systems are dynamic enablers of efficiency, innovation, and adaptability, propelling organizations forward in the digital age.
+    
+    
+    
+    
+    
+    
+            </p>
+        </section>
+    
+        <section id="courses" class="container mt-3">
+            <h2> COURSES</h2>
+            <div class="row" id="course-list">
+                <!-- Add more courses here following the same structure -->
+                <div class="col-md-4 mb-3">
+                    <div class="card">
+                        <img src="img/course1.png" class="card-img-top" alt="Advanced Machine Learning">
+                        <div class="card-body">
+                            <h5 class="card-title">Advanced Machine Learning</h5>
+                            <p class="card-text">Explore the latest advancements in technology with our New Course. This hands-on experience will introduce you to cutting-edge concepts and practices in the ever-evolving field of information systems.</p>
+                            <a href="https://www.tensorflow.org/resources/learn-ml/theoretical-and-advanced-machine-learning" class="btn btn-primary" target="_blank">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Add more courses here following the same structure -->
+                <div class="col-md-4 mb-3">
+                    <div class="card">
+                        <img src="img/course2.jpg" class="card-img-top" alt="Web Development Fundamentals">
+                        <div class="card-body">
+                            <h5 class="card-title">Web Development Fundamentals</h5>
+                            <p class="card-text">Explore the essentials of web development, including HTML, CSS, and JavaScript. Learn how to create responsive and interactive web pages.</p>
+                            <a href="https://www.monocubed.com/blog/fundamentals-of-web-development/" class="btn btn-primary" target="_blank">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Add more courses here following the same structure -->
+                <div class="col-md-4 mb-3">
+                    <div class="card">
+                        <img src="img/course3.png" class="card-img-top" alt="Data Structures and Algorithms">
+                        <div class="card-body">
+                            <h5 class="card-title">Data Structures and Algorithms</h5>
+                            <p class="card-text">Deepen your understanding of data structures and algorithms, essential for efficient problem-solving in software development.</p>
+                            <a href="https://www.programiz.com/dsa" class="btn btn-primary" target="_blank">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Add more courses here following the same structure -->
+                <div class="col-md-4 mb-3">
+                    <div class="card">
+                        <img src="img/course4.png" class="card-img-top" alt="User Experience Design">
+                        <div class="card-body">
+                            <h5 class="card-title">User Experience Design</h5>
+                            <p class="card-text">Craft seamless and user-friendly digital experiences. Dive into the principles of UX design and create products that users love.</p>
+                            <a href="https://bootcamp.cvn.columbia.edu/blog/what-is-ux-design/" class="btn btn-primary" target="_blank">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Add more courses here following the same structure -->
+                <div class="col-md-4 mb-3">
+                    <div class="card">
+                        <img src="img/course5.png" class="card-img-top" alt="Mobile App Development">
+                        <div class="card-body">
+                            <h5 class="card-title">Mobile App Development</h5>
+                            <p class="card-text">Unlock the world of mobile app development. Build interactive and engaging mobile applications for Android and iOS platforms.</p>
+                            <a href="https://flutter.dev/multi-platform/mobile?gclid=CjwKCAiA44OtBhAOEiwAj4gpOSWBK6MOMBaU1MXeYcLKaXBnycXd2AtSGAF5FWnmqrwFWMkPxakcJxoC19IQAvD_BwE&gclsrc=aw.ds" class="btn btn-primary" target="_blank">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Add more courses here following the same structure -->
+                <div class="col-md-4 mb-3">
+                    <div class="card">
+                        <img src="img/course6.png" class="card-img-top" alt="Cybersecurity Fundamentals">
+                        <div class="card-body">
+                            <h5 class="card-title">Cybersecurity Fundamentals</h5>
+                            <p class="card-text">Protect digital assets and information. Explore the basics of cybersecurity, including threat detection, encryption, and risk management.</p>
+                            <a href="https://www.knowledgehut.com/blog/security/cyber-security-fundamentals" class="btn btn-primary" target="_blank">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="blockchain" class="container mt-3">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <h2>Blockchain Technology: Transforming Data Security and Integrity</h2>
+                    <p>Delve into the world of blockchain technology and its profound impact on ensuring data security and integrity within Information Systems. Explore how decentralized and tamper-resistant ledgers redefine the way organizations manage and secure their data. Understand the potential applications of blockchain in various industries and its role in shaping the future of information management systems.</p>
+                </div>
+                <div class="col-md-6 text-center">
+                    <!-- Add your image source for the Blockchain topic -->
+                    <img src="img/blockchain.png" alt="Blockchain Image" class="img-fluid">
+                </div>
+            </div>
+            <a href="https://aws.amazon.com/what-is/blockchain/" class="icon" title="Explore Blockchain">&#128279;</a>
+            <a href="https://www.investopedia.com/terms/b/blockchain.asp" class="button" title="Learn More about Blockchain">Learn More</a>
+        </section>
+        <section id="future-information-systems" class="container mt-3">
+            <div class="row align-items-center">
+                <div class="col-md-6 text-center">
+                    <!-- Add your image source for the Future of Information Systems topic -->
+                    <img src="img/gif.gif" alt="Future of Information Systems Image" class="img-fluid">
+                </div>
+                <div class="col-md-6">
+                    <h2>Future of Information Systems: Navigating Tomorrow's Digital Landscape</h2>
+                    <p>The future of information systems promises unprecedented advancements that will reshape the way organizations operate and innovate. As technologies continue to evolve, Information Systems are anticipated to play a pivotal role in driving efficiency, fostering innovation, and ensuring seamless connectivity across diverse platforms.</p>
+                    <p>Blockchain technology is set to revolutionize data security and transparency. The decentralized nature of blockchain ensures tamper-proof records, offering a new level of trust and integrity in information management systems. Industries like finance, healthcare, and supply chain are expected to leverage blockchain for secure and transparent transactions.</p>
+                </div>
+            </div>
+            <div class="interaction-icons mt-3">
+                <i class="icon fas fa-thumbs-up" onclick="handleLikeClick()"></i>
+                <i class="icon fas fa-comment" onclick="handleCommentClick()"></i>
+                <i class="icon fas fa-share-alt" onclick="handleShareClick()"></i>
+            </div>
+            <button class="button" onclick="exploreTrends()">Explore Latest Trends</button>
+        </section>
+        <section id="image" class="container mt-3 text-center">
+            <img src="img/about-us.png" alt="Image Description" class="img-fluid">
+        </section>
+        <section id="about" class="container mt-3">
+            <h2>ABOUT US</h2>
+            <p>Welcome to our Information System website! We are a team of passionate individuals dedicated to providing valuable insights and resources in the field of Information Systems. Our goal is to empower learners and professionals with knowledge that can enhance their skills and contribute to the ever-evolving landscape of technology.</p>
+            <p>Explore our courses and additional resources to embark on a journey of learning and discovery. If you have any questions or inquiries, feel free to reach out to us through the contact form below.</p>
+        </section>
+        <section id="faq" class="container mt-3">
+            <h2>Frequently Asked Questions</h2>
+            <div class="accordion" id="faqAccordion">
+        
+                <!-- FAQ Item 1 -->
+                <div class="card">
+                    <div class="card-header" id="faqHeading3">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#faqCollapse3" aria-expanded="false" aria-controls="faqCollapse3">
+                                How do Information Systems benefit businesses?
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="faqCollapse3" class="collapse" aria-labelledby="faqHeading3" data-parent="#faqAccordion">
+                        <div class="card-body">
+                            Information Systems help businesses streamline processes, make data-driven decisions, enhance communication, and adapt to the digital landscape, contributing to increased efficiency and competitiveness.
+                        </div>
+                    </div>
+                </div>
+        
+       
+                <div class="card">
+                    <div class="card-header" id="faqHeading4">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#faqCollapse4" aria-expanded="false" aria-controls="faqCollapse4">
+                                What are the key components of an Information System?
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="faqCollapse4" class="collapse" aria-labelledby="faqHeading4" data-parent="#faqAccordion">
+                        <div class="card-body">
+                            The key components of an Information System include hardware, software, data, procedures, and people. These elements work together to collect, process, store, and distribute information within an organization.
+                        </div>
+                    </div>
+                </div>
+        
+        
+            </div>
+        </section>
+        
+        <section id="resources" class="container mt-3">
+            <h2>ADDITIONAL RESOURCES</h2>
+            <p>Explore more resources to enhance your learning journey.</p>
+            
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="resource-item">
+                        <h4>Online Tutorials</h4>
+                        <p>Access a variety of online tutorials covering a wide range of information system topics. Learn at your own pace.</p>
+                        <a href="https://www.w3schools.com" class="btn btn-secondary" target="_blank">Explore Tutorials</a>
+                    </div>
+                </div>
+                
+                <div class="col-md-6">
+                    <div class="resource-item">
+                        <h4>Books and Publications</h4>
+                        <p>Discover recommended books and publications that delve into the fundamental concepts and latest trends in information systems.</p>
+                        <a href="https://guides.library.ubc.ca/mis/books" class="btn btn-secondary" target="_blank">Browse Books</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="contact" class="container mt-3">
+            <h2>CONTACT US</h2>
+            <p>Feel free to reach out to us with any questions or inquiries. We're here to help!</p>
+        
+            <form id="contactForm" onsubmit="validateForm(event)">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea class="form-control" id="message" rows="4" placeholder="Enter your message" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </section>
+        <button id="backToTopBtn" class="btn btn-primary" onclick="scrollToTop()">Back to Top</button>
+        <footer class="bg-dark text-white text-center p-3 mt-3">
+            <p>&copy; 2024 Submitted by: Ludel Jahn Esparagoza, Hanah Joy Tenorio, Virgilio Adug, Jericho Chavez, Gemark Mariano, Mae Honarario.</p>
+        </footer>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <script src="script.js"></script>
+ </body>
+ </html>
+ 

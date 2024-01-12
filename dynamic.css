@@ -1,0 +1,432 @@
+body {
+   font-family: 'Arial', sans-serif;
+   margin: 0;
+   padding: 0;
+}
+
+header,
+nav,
+section,
+footer {
+   margin: 10px;
+}
+
+nav ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+   background-color: #333;
+}
+
+
+nav a {
+   display: block;
+   color: white;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+}
+
+nav a:hover {
+   background-color: #ddd;
+   color: black;
+}
+
+section {
+   margin-top: 20px;
+}
+   footer {
+      position: relative; /* Change 'fixed' to 'relative' for a responsive footer */
+      bottom: -19.27px;
+      left: 0;
+      width: 100%;
+      margin-left:0;
+  }
+  
+footer p{
+   line-height: 0px;
+}
+/* Add your custom styles here */
+
+/* Responsive Navbar */
+.navbar-toggler {
+   border: none;
+}
+
+/* Course Cards */
+.card {
+   transition: transform 0.3s ease-in-out, box-shadow 0.3s ease;
+   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); /* Subtle box-shadow for lifted effect */
+}
+
+.card:hover {
+   transform: scale(1.05);
+   box-shadow: 0 8px 18px rgba(0, 0, 0, 0.2); /* Hover effect with a slightly larger box-shadow */
+}
+
+/* Modal Styling */
+.modal-body {
+   text-align: center;
+}
+
+
+/* Improve Navbar Styling */
+.navbar {
+   transition: background-color 0.3s ease;
+   padding: 0.8rem 0; /* Adjusted padding for better spacing */
+}
+
+.navbar.navbar-scrolled {
+   background-color: #343a40; /* Darker background on scroll */
+}
+
+/* Enhance Course Cards */
+.card {
+   transition: transform 0.3s ease-in-out, box-shadow 0.3s ease;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle box-shadow for lifted effect */
+}
+
+.card:hover {
+   transform: scale(1.05);
+   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Hover effect with a slightly larger box-shadow */
+}
+
+/* Stylize Contact Form */
+.modal-content {
+   border-radius: 10px; /* Rounded corners */
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle box-shadow for a lifted effect */
+}
+
+.modal-body {
+   text-align: center;
+}
+
+#contactForm {
+   margin: 1rem 0;
+}
+
+#contactForm input,
+#contactForm button {
+   margin-bottom: 1rem;
+}
+
+/* Overall Styling */
+body {
+   font-family: 'Arial', sans-serif;
+   color: #333; /* Default text color */
+}
+
+h1,
+h2,
+h5 {
+   color: #007bff;
+   font-family: 'Montserrat';
+}
+h2{
+   padding-top:30px;
+}
+p {
+   line-height: 1.6;
+}
+
+header h1:hover {
+   color: #007bff;
+   cursor: pointer;
+}
+
+header {
+   position: relative;
+   z-index: 0; /* Ensure the header stays behind the logo */
+}
+
+/* Improved Responsive Design */
+@media (max-width: 576px) {
+   h1 {
+       font-size: 2rem;
+   }
+}
+
+/* Custom Modal Design */
+.modal-content {
+   background-color: #fff;
+   box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.modal-header {
+   background-color: #007bff;
+   color: #fff;
+   border-bottom: none;
+}
+
+/* Form Styling */
+#contactForm input,
+#contactForm button {
+   margin-bottom: 1.5rem;
+   padding: 10px;
+   border: 1px solid #ddd;
+   border-radius: 5px;
+}
+
+#contactForm button {
+   background-color: #007bff;
+   color: #fff;
+   cursor: pointer;
+}
+
+#contactForm button:hover {
+   background-color: #0056b3;
+}
+
+
+/* Animations */
+@keyframes fadeIn {
+   from {
+       opacity: 0;
+   }
+
+   to {
+       opacity: 1;
+   }
+}
+
+/* Apply the animation to elements */
+header,
+section,
+footer {
+   animation: fadeIn 1s ease-in-out;
+}
+
+/* Mobile-Friendly Navigation */
+@media (max-width: 768px) {
+   nav {
+       text-align: center;
+   }
+
+   nav li {
+       display: block;
+       margin-bottom: 10px;
+   }
+
+   nav a {
+       padding: 10px;
+   }
+}
+/* Smooth Scrolling */
+html {
+   scroll-behavior: smooth;
+}
+
+/* Logo Styling */
+h1 {
+   z-index: 1;
+   position: relative;
+   color: rgb(14, 13, 13);
+   margin-right: 10px; 
+   margin-left:90px;/* Adjusted margin to move h1 slightly to the right */
+}
+
+.background-image {
+   max-width: 400px;
+   width:100%;
+   height: auto;
+   margin-right: 20px; /* Adjust the margin as needed */
+}
+
+h2 {
+   color: rgb(12, 10, 10);
+}
+
+header {
+   position: relative;
+}
+
+.logo {
+   position: absolute;
+   left: 0;
+   top: -11px;
+   max-width: 80px;
+   height: auto;
+   
+}
+/* Additional Resources Section Styles */
+#resources {
+   margin-top: 40px;
+}
+
+#resources .resource-item {
+   background-color: #f8f9fa;
+   padding: 20px;
+   margin-bottom: 20px;
+   border-radius: 8px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#resources .resource-item h4 {
+   color: #007bff;
+}
+
+/* Contact Us Section Styles */
+#contact {
+   margin-top: 40px;
+}
+
+#contact #contactForm textarea {
+   resize: vertical; /* Allow vertical resizing of the textarea */
+}
+
+#contact #contactForm button {
+   background-color: #007bff;
+   color: #fff;
+   cursor: pointer;
+   transition: background-color 0.3s ease;
+}
+
+#contact #contactForm button:hover {
+   background-color: #0056b3;
+}
+#blockchain {
+   margin-top: 40px;
+}
+
+#blockchain h2 {
+   color: #007bff;
+}
+
+#blockchain p {
+   line-height: 1.6;
+}
+
+#blockchain img {
+   max-width: 100%;
+   height: auto;
+   margin-top: 20px;
+   border-radius: 8px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#blockchain .icon {
+   display: inline-block;
+   font-size: 24px;
+   margin-left: 10px;
+   color: #007bff;
+   cursor: pointer;
+   transition: color 0.3s ease;
+}
+
+#blockchain .icon:hover {
+   color: #0056b3;
+}
+
+#blockchain .button {
+   display: inline-block;
+   padding: 10px 20px;
+   background-color: #007bff;
+   color: #fff;
+   text-decoration: none;
+   border-radius: 5px;
+   margin-top: 20px;
+   transition: background-color 0.3s ease;
+}
+
+#blockchain .button:hover {
+   background-color: #0056b3;
+}
+#future-information-systems {
+   margin-top: 40px;
+}
+
+#future-information-systems h2 {
+   color: #007bff;
+   font-size: 2rem;
+}
+
+#future-information-systems p {
+   line-height: 1.6;
+   font-size: 1.2rem;
+}
+
+#future-information-systems img {
+   max-width: 100%;
+   height: auto;
+   border-radius: 8px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.icon {
+   display: inline-block;
+   font-size: 2rem;
+   margin-right: 10px;
+   color: #007bff;
+}
+
+.button {
+   display: inline-block;
+   padding: 10px 20px;
+   background-color: #007bff;
+   color: #fff;
+   text-decoration: none;
+   border-radius: 5px;
+   margin-top: 20px;
+   transition: background-color 0.3s ease;
+}
+
+.button:hover {
+   background-color: #0056b3;
+}
+#faq {
+   margin-top: 40px;
+}
+
+#faqAccordion {
+   margin-top: 20px;
+}
+
+#faqAccordion .card-header {
+   color: #fff;
+}
+
+#faqAccordion .btn-link {
+   color: #007bff;
+}
+
+#faqAccordion .btn-link:hover {
+   text-decoration: none;
+}
+
+#faqAccordion .fas {
+   transition: transform 0.3s ease;
+}
+
+#faqAccordion .collapsed .fas {
+   transform: rotate(-180deg);
+}
+/* Back to Top Button Styles */
+#backToTopBtn {
+   display: none; /* Hide the button by default */
+   position: fixed;
+   bottom: 20px;
+   right: 20px;
+   background-color: #007bff;
+   color: #fff;
+   border: none;
+   border-radius: 5px;
+   padding: 10px 20px;
+   cursor: pointer;
+   font-size: 16px;
+   transition: background-color 0.3s ease;
+}
+
+#backToTopBtn:hover {
+   background-color: #0056b3;
+}
+
+/* Show the button when scrolling down */
+body {
+   scroll-behavior: smooth;
+}
+
+/* Show the button only when scrolling down */
+#backToTopBtn.visible {
+   display: inline-block;
+}
