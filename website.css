@@ -1,0 +1,515 @@
+body {
+  font-family:'Sans-serif', Helvetica;
+  margin: 0;
+  padding: 0;
+ 
+}
+
+header{
+    position: relative;
+    z-index: 0;
+    background-color: #AAC7D8;
+    margin: 0 !important;
+    padding: 10px;
+    font-weight: bold;
+    font-family: 'Montserrat';
+  }
+
+header,
+nav,
+section,
+footer {
+  margin: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #768a9611;
+  
+}
+
+
+nav a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+section {
+  margin-top: 20px;
+}
+  footer {
+     position: relative; /* Change 'fixed' to 'relative' for a responsive footer */
+     bottom: -19.27px;
+     left: 0;
+     width: 100%;
+     margin-left:0;
+     background-color: #82a2b4 !important;
+    
+ }
+ 
+footer p{
+  line-height: 0px;
+}
+/* Add your custom styles here */
+
+/* Responsive Navbar */
+.navbar-toggler {
+  border: none;
+}
+
+.card {
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); /* Subtle box-shadow for lifted effect */
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.2); /* Hover effect with a slightly larger box-shadow */
+}
+
+/* Modal Styling */
+.modal-body {
+  text-align: center;
+}
+
+
+/* Improve Navbar Styling */
+.navbar {
+  transition: background-color 0.3s ease;
+  padding: 0.8rem;
+  margin: 0 auto -10px 0;
+  width:100%;
+  background-color: #44576D !important;
+}
+
+.navbar.navbar-scrolled {
+  background-color: #343a40; /* Darker background on scroll */
+}
+
+/* Stylize Contact Form */
+.modal-content {
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle box-shadow for a lifted effect */
+}
+
+.modal-body {
+  text-align: center;
+}
+
+#contactForm {
+  margin: 1rem 0;
+}
+
+#contactForm input,
+#contactForm button {
+  margin-bottom: 1rem;
+}
+
+p {
+  line-height: 1.6;
+}
+
+header h1:hover {
+  color: #007bff;
+  cursor: pointer;
+}
+
+
+
+/* Improved Responsive Design */
+@media (max-width: 576px) {
+  h1 {
+      font-size: 2rem;
+  }
+}
+
+/* Custom Modal Design */
+.modal-content {
+  background-color: #fff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.modal-header {
+  background-color: #007bff;
+  color: #fff;
+  border-bottom: none;
+}
+
+/* Form Styling */
+#contactForm input,
+#contactForm button {
+  margin-bottom: 1.5rem;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+#contactForm button {
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+#contactForm button:hover {
+  background-color: #0056b3;
+}
+
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+  }
+
+  to {
+      opacity: 1;
+  }
+}
+
+/* Apply the animation to elements */
+header,
+section,
+footer {
+  animation: fadeIn 1s ease-in-out;
+}
+
+/* Mobile-Friendly Navigation */
+@media (max-width: 768px) {
+  nav {
+      text-align: center;
+  }
+
+  nav li {
+      display: block;
+      margin-bottom: 10px;
+  }
+
+  nav a {
+      padding: 10px;
+  }
+  footer {
+     position: relative;
+     bottom: 0;
+     margin: 0;
+ }
+
+ footer p {
+     line-height: 1.6;
+ }
+}
+
+/* Smooth Scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Logo Styling */
+h1 {
+  z-index: 1;
+  position: relative;
+  color: rgb(14, 13, 13);
+  margin-right: 10px; 
+  margin-left:90px;
+}
+
+.background-image {
+  max-width: 500px;
+  width:100%;
+  height: auto;
+  margin: 100px 30px 100px 0;
+}
+
+h2 {
+  color: rgb(12, 10, 10);
+
+}
+
+header {
+  position: relative;
+}
+
+.logo {
+  position: absolute;
+  left: 15px;
+  top: 0px;
+  max-width: 80px;
+  height: auto;
+  z-index:999;
+  
+}
+
+#about h2{
+  text-align: center;
+}
+#resources {
+  margin-top: 40px;
+}
+
+#resources .resource-item {
+  background-color: #f8f9fa;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#resources .resource-item h4 {
+  color: #007bff;
+}
+
+/* Contact Us Section Styles */
+#contact {
+  margin-top: 40px;
+}
+
+#contact #contactForm textarea {
+  resize: vertical; /* Allow vertical resizing of the textarea */
+}
+
+#contact #contactForm button {
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#contact #contactForm button:hover {
+  background-color: #0056b3;
+}
+#tech-info {
+  margin-top: 40px;
+}
+
+#tech-info h2 {
+  color: #007bff;
+}
+
+#tech-info p {
+  line-height: 1.6;
+  font-size: 1.2rem;
+}
+
+#tech-info img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#tech-info .icon {
+  display: inline-block;
+  font-size: 24px;
+  margin-left: 10px;
+  color: #007bff;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+#tech-info .icon:hover {
+  color: #0056b3;
+}
+
+#tech-info .button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+
+#tech-info .button:hover {
+  background-color: #0056b3;
+}
+#future-tech {
+  margin-top: 40px;
+}
+
+#future-tech h2 {
+  color: #007bff;
+  font-size: 2rem;
+}
+
+#future-tech p {
+  line-height: 1.6;
+  font-size: 1.2rem;
+}
+
+#future-tech img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.icon {
+  display: inline-block;
+  font-size: 2rem;
+  margin-right: 10px;
+  color: #007bff;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+#knowledge-hub {
+margin-top: 40px;
+text-align: center;
+}
+
+#knowledge-hub h2 {
+color: #007bff;
+font-size: 2rem;
+margin-bottom: 20px;
+}
+
+#knowledge-hub p {
+line-height: 1.6;
+font-size: 1.2rem;
+color: #444;
+}
+
+.accordion {
+margin-top: 20px;
+}
+
+.card {
+border: none;
+margin-bottom: 10px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+border-radius: 8px;
+overflow: hidden;
+transition: box-shadow 0.3s ease;
+}
+
+.card:hover {
+box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-header {
+background-color: #007bff;
+color: #ffffff;
+}
+
+.card-header h5 {
+margin: 0;
+font-size: 1.5rem;
+}
+
+.btn-link {
+color: #007bff;
+text-decoration: none;
+font-weight: bold;
+transition: color 0.3s ease;
+}
+
+.btn-link:hover {
+color: #0056b3;
+}
+
+.card-body {
+padding: 20px;
+color: #333;
+}
+#backToTopBtn {
+  display: none; /* Hide the button by default */
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #007bff50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+#backToTopBtn:hover {
+  background-color: #0056b3;
+}
+
+#backToTopBtn.visible {
+  display: inline-block;
+}
+
+/* Show the button when scrolling down */
+body {
+  scroll-behavior: smooth;
+}
+
+
+.carousel-inner{
+  width:80vw;
+  height:auto;
+  margin-left:25px;
+border-radius: 10px;
+}
+.carousel-control-prev,
+.carousel-control-next {
+  width: auto;
+  margin-top: -50px; 
+}
+.carousel-control-prev, .carousel-control-next {
+  top: 50%;
+  transform: translateY(-50%);
+}
+@media (max-width: 576px) {
+  .carousel-control-prev, .carousel-control-next {
+      display: block;
+      width: auto;
+  }
+}
+
+/* .carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: #007bff; 
+  border-radius: 5px; 
+}
+
+.carousel-control-prev {
+  margin-left: 28px; 
+}
+
+.carousel-control-next {
+  margin-right: -540px; 
+} */
+.fa-instagram{
+  font-size: 30px;
+  background: linear-gradient(to right, #feda75, #fa7e1e, #d62976 , #962fbf, #4f5bd5);
+  border-radius: 10px;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  vertical-align: middle;
+  padding-left:5px;
+  padding-top: -10px;
+  margin-bottom:12.5px;
+}
