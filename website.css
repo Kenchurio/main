@@ -57,7 +57,9 @@ section {
      background-color: #82a2b4 !important;
     
  }
- 
+ h3{
+  font-size: 22px;
+ }
 footer p{
   line-height: 0px;
 }
@@ -224,12 +226,13 @@ h1 {
 }
 
 .background-image {
-  max-width: 500px;
-  width:100%;
+  max-width: 600px;
+  width: 100%;
   height: auto;
-  margin: 100px 30px 100px 0;
-}
+  margin: 100px auto auto auto;
+  border-radius: 10px;
 
+}
 h2 {
   color: rgb(12, 10, 10);
 
@@ -467,7 +470,8 @@ body {
 
 
 .carousel-inner{
-  width:80vw;
+  position: relative;
+  width:150%;
   height:auto;
   margin-left:25px;
 border-radius: 10px;
@@ -477,17 +481,6 @@ border-radius: 10px;
   width: auto;
   margin-top: -50px; 
 }
-.carousel-control-prev, .carousel-control-next {
-  top: 50%;
-  transform: translateY(-50%);
-}
-@media (max-width: 576px) {
-  .carousel-control-prev, .carousel-control-next {
-      display: block;
-      width: auto;
-  }
-}
-
 /* .carousel-control-prev-icon,
 .carousel-control-next-icon {
   background-color: #007bff; 
