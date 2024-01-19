@@ -469,18 +469,14 @@ body {
 }
 
 
-.carousel-inner{
-  position: relative;
-  width:150%;
-  height:auto;
-  margin-left:25px;
-border-radius: 10px;
+.carousel-inner {
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto; 
+  overflow: hidden; 
+  border-radius: 10px;
 }
-.carousel-control-prev,
-.carousel-control-next {
-  width: auto;
-  margin-top: -50px; 
-}
+
 /* .carousel-control-prev-icon,
 .carousel-control-next-icon {
   background-color: #007bff; 
